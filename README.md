@@ -1,9 +1,9 @@
 # QuestMod
 
-## Setup
+## What is this ?
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+This is a Minecraft mod that create original quest to play with your friends on your servers ! in this moment is more like an idea under developing, so more information coming further ahead.  
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+The proyect is developing under the MIT license, feel free to use it or change it if you want !
