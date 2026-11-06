@@ -1,0 +1,50 @@
+{
+	"schemaVersion": 1,
+	"id": "questmod",
+	"version": "${version}",
+	"name": "QuestMod",
+	"description": "A mod to play with your friends! quest and missions to begin your journey",
+	"authors": [
+		{
+			"name": "Mithosus",
+			"contact": {
+				"homepage": "https://github.com/JMGrauO"
+			}
+		}
+	],
+	"contributors": [
+		{
+			"name": "Angel",
+			"contact": {
+				"homepage": "https://github.com/AngelCMHxD"
+			}
+		}
+	],
+	"contact": {
+		"homepage": "https://mithosus.xyz",
+		"sources": "https://github.com/JMGrauO/QuestMod.git"
+	},
+	"license": "MIT",
+	"icon": "assets/questmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.mithosus.questmod.QuestMod"
+		],
+		"fabric-datagen": [
+			"me.mithosus.questmod.QuestModDataGenerator"
+		],
+		"client": [
+			"me.mithosus.questmod.QuestModClient"
+		]
+	},
+	"mixins": [
+		"questmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
