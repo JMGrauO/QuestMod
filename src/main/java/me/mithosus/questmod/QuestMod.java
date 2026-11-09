@@ -1,8 +1,8 @@
 package me.mithosus.questmod;
 
+import me.mithosus.questmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.resources.ResourceLocation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +13,7 @@ public class QuestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registrarItemsMod();
 	}
 
 }
